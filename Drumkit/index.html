@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">ding</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">dang</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">dong</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">bang</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">horn</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">boo</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">crow</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">laugh</span>
+    </div>
+  </div>
+
+  <audio src="sounds/DarkAtmosphere.mp3" id="backgroundMusic" loop="loop">
+  </audio>
+
+  <audio data-key="65" src="sounds/Impact1.mp3"></audio>
+  <audio data-key="83" src="sounds/Impact2.mp3"></audio>
+  <audio data-key="68" src="sounds/Impact3.mp3"></audio>
+  <audio data-key="70" src="sounds/Impact4.mp3"></audio>
+  <audio data-key="71" src="sounds/BangBang.mp3"></audio>
+  <audio data-key="72" src="sounds/StrangeHorne.mp3"></audio>
+  <audio data-key="74" src="sounds/BooAndLaugh.mp3"></audio>
+  <audio data-key="75" src="sounds/Raven.mp3"></audio>
+  <audio data-key="76" src="sounds/LaughingGhost.mp3"></audio>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

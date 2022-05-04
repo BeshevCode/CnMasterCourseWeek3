@@ -1,0 +1,68 @@
+@import url('http://fonts.cdnfonts.com/css/warcraft'); 
+
+body {
+  background-image: url('images/WarcraftOrcVsHumans.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+#wrapper {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-family: 'warcraft', sans-serif;
+}
+
+p, img {
+  position:absolute;
+  margin:0;
+  padding:5px;
+}
+p:nth-child(1) {
+  bottom:8rem;
+  left:0;   
+}
+img:nth-child(2) {
+  bottom:0rem;
+  left:0;  
+}
+p:nth-child(3) {
+  bottom:8rem;
+  right:0;
+}
+img:nth-child(4) {
+  bottom:0;
+  right:0;
+}
+
+h1 {
+  -webkit-text-stroke: 1px black; 
+  margin: 20px;
+  font-size: 6rem;
+  color: #cfae84;
+  display: flex;
+  justify-content: center;
+}
+
+#dice-area {
+  margin: 0px 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#player-1,
+#player-2 {
+  -webkit-text-stroke: 1px black; 
+  font-size: 2.5rem;
+  color: rgb(194, 12, 39);
+}
+
+#player-2 {
+  color: rgb(37, 47, 224);
+}
+
+img {
+  width: 120px;
+}
